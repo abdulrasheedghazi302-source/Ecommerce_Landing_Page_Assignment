@@ -1,0 +1,428 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --primary :#0D5EBA;
+    --secondary : #343434;
+    --success : #002D69;
+    --danger : #DADADA;
+    --warning : #B8E0EF;
+    --info : #53585F;
+    --light : #929FA8;
+    --60px-size : 60px;
+    --36px-size : 36px;
+    --21px-size : 21px;
+    --18px-size : 18px;
+    --16px-size : 16px;
+    --700-weight : 700;
+    --500-weight : 500;
+    --400-weight : 400;
+}
+
+/* Nav Bar */
+
+.nav-bar {
+    width: 100%;
+    margin: auto;
+    padding: 10px 30px ;
+}
+
+/* Nav Bar Logo */
+
+.logo {
+    display: inline-block;
+    text-align: center;
+    width: 35%;
+    padding-top: 15px;
+    text-transform: uppercase;
+    color: var(--primary);
+    font-size: var(--36px-size);
+    font-weight: var(--700-weight);
+
+}
+
+/* Nav Bar Links */
+
+.links {
+    display: inline-block;
+    text-align: right;
+    width: 63%;
+    color: var(--secondary);
+    font-size: var(--16px-size);
+    font-weight: var(--700-weight);
+}
+
+.link {
+    display: inline;
+    margin-right: 50px;
+}
+
+/* Hero Section */
+
+.hero {
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* Hero Image */
+
+.hero > img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Cards Section */
+
+.cards-container {
+    width: 90%;
+    margin: 30px auto;
+}
+
+/* Cards Heading */
+
+.cards-head {
+    text-transform: uppercase;
+    color: var(--success);
+    font-size: var(--36px-size);
+    margin-left: 17px;
+}
+
+/* Cards */
+
+.card {
+    display: inline-block;
+    margin-left: 17px;
+    padding-top: 40px;
+}
+
+/* Cards Title */
+
+.card-title {
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--success);
+    font-size: var(--18px-size);
+    font-weight: var(--500-weight);
+    margin-top: 15px;
+}
+
+/* Banner Section */
+
+.banner {
+    width: 100%;
+    margin-top: 50px ;
+}
+
+/* Banner Left Div */
+
+.left-div {
+    width: 45%;
+    min-width: 300px;
+    height: 682px;
+    background-color: #002D69;
+    display: inline-block;
+}
+
+.inner-left-div > h2 {
+    text-transform: uppercase;
+    font-size: 54px;
+    color: #ffffff;
+    text-align: center;
+    padding-top:220px;
+}
+
+.inner-left-div > p {
+    text-align: center;
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 30px;
+}
+
+/* Banner Left Div Button */
+
+.inner-left-div > button {
+    display: block;
+    font-size: var(--16px-size);
+    color: var(--success);
+    background-color: #ffffff;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-top:55px;
+    margin-left: 100px;
+    padding: 15px 25px;
+}
+
+/* Banner Right Div */
+
+.right-div {
+    display: inline-block;
+    width: 53%;
+    min-width: 300px;
+    height: 682px;
+    background-image: url('./images/Image.png');
+    background-size: cover;
+    vertical-align: top;
+}
+
+/* Our Latest Jewelry */
+
+.our-latest-jewelry {
+    width: 90%;
+    height: auto;
+    margin: 30px auto;
+}
+
+/* Our Latest Jewelry Heading */
+
+.our-latest-jewelry-head {
+    text-transform: uppercase;
+    color: var(--success);
+    font-size: var(--36px-size);
+    margin-left: 17px;
+}
+
+/* Our Latest Jewelry Items */
+ 
+.our-latest-jewelry-item {
+    display: inline-block;   
+    padding-top: 40px; 
+    margin-left: 9px;
+}
+
+/* Our Latest Jewelry Items Button */
+
+.our-latest-jewelry > button {
+    display: block;
+    text-transform: uppercase;
+    font-size: var(--16px-size);
+    color: #ffffff;
+    background-color: var(--success);
+    border-radius: 7px;
+    cursor: pointer;
+    margin-top:45px;
+    margin-left: 500px;
+    padding: 15px 25px;
+}
+
+/* Customer Reviews */
+
+.customer-reviews {
+    width: 90%;
+    height: auto;
+    margin: 30px auto;
+}
+
+/* Customer Reviews Heading */
+
+.customer-reviews-head {
+    text-transform: uppercase;
+    color: var(--success);
+    font-size: var(--36px-size);
+    margin-left: 37px;
+}
+
+/* Customer Reviews Section */
+
+.reviews {
+    border: 1px solid var(--danger-color);
+    width: 30%;
+    height: 206px;
+    display: inline-block;
+    margin-left: 37px;
+    margin-top: 40px
+    
+}
+
+/* Customer Reviews Section Icon */
+
+.dot {
+    font-size: var(--60px-size) ;
+    padding-left: 30px;
+    color: var(--success);
+}
+
+.reviews > p {
+    text-align: center;
+    font-size: var(--18px-size);
+    font-weight: var(--400-weight);
+}
+
+/* Customer Reviews Section Author */
+
+.reviews > .author {
+    display: block;
+    text-align: center;
+    margin-top: 25px;
+    font-size: var(--18px-size);
+    font-weight: var(--400-weight);
+}
+
+/* Our Services */
+
+.our-services {
+    width: 90%;
+    height: auto;
+    margin: 30px auto;
+}
+
+/* Our Services Heading */
+
+.our-services-head {
+    text-transform: uppercase;
+    color: var(--success);
+    font-size: var(--36px-size);
+    margin-left: 9px;
+    margin-top: 20px;
+}
+
+/* Our Services Items */
+ 
+.our-services-item {
+    display: inline-block;   
+    margin-left: 9px;
+    padding-top: 40px; 
+}
+
+/* Our Services Items Button */
+
+.our-services > button {
+    text-transform: uppercase;
+    font-size: var(--16px-size);
+    color: #ffffff;
+    background-color: var(--success);
+    border-radius: 7px;
+    cursor: pointer;
+    margin-top:45px;
+    margin-left: 500px;
+    padding: 15px 25px;
+}
+
+/* Our Services Items Title */
+
+.our-services-title {
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--success);
+    font-size: var(--18px-size);
+    font-weight: var(--500-weight);
+    margin-top: 15px;
+}
+
+/* Footer */
+
+footer {
+    width: 100%;
+    height: 800px;
+    background-color: var(--warning);
+}
+
+/* Subscribe */
+
+.subscribe {
+    text-align: center;
+    padding-top: 50px;
+}
+
+/* Subscribe Left Image */
+
+.left-image {
+    display: inline-block;
+    width: 35%;
+    vertical-align: top;
+}
+
+/* Subscribe Right Text */
+
+.right-text {
+    display: inline-block;
+    width: 35%;
+    vertical-align: top;
+    background-color: white;
+    height: 400px;
+}
+
+.text {
+    margin-top: 100px;
+    margin-left: 5opx;
+    text-align: center;
+}
+
+.text-head {
+    text-transform: uppercase;
+    color: var(--success);
+    font-size: var(--36px-size);
+    font-weight: var(--700-weight);
+
+}
+
+.text-para {
+    font-size: var(--16px-size);
+    font-weight: var(--400-weight);
+    color: var(--secondary);
+    padding-top: 15px;
+}
+
+.text > button {
+    display: block;
+    text-transform: uppercase;
+    font-size: var(--16px-size);
+    color: #ffffff;
+    background-color: var(--success);
+    border-radius: 7px;
+    cursor: pointer;
+    margin-top:25px;
+    padding: 10px 25px;
+    margin-left: 140px;
+    
+}
+
+/* Footer Table */
+
+.footer-table {
+    text-align:left ;
+    margin-left: 70px;
+    margin-top: 50px;
+    width: 35% ;
+}
+
+.table-head > .head{
+    width: 50%;
+    padding-bottom: 20px;
+    font-weight: 700;
+    font-size: var(--21px-size);
+    color: var(--secondary);
+}
+ .table-data {
+    padding-top: 4px;
+    font-weight: var(--700-weight);
+    font-size: var(--16px-size);
+    color: var(--info);
+}
+
+/* Footer Border */
+
+.footer-border {
+    border: 1px solid var(--light);
+    margin-top: 50px;
+}
+
+.copyright {
+    display: inline-block;
+    padding-left: 20px;
+    padding-top: 45px;
+    font-size: var(--18px-size);
+    color: var(--secondary);
+    width: 87%;
+}
+
+/* Social Icons */
+
+.social-icons {
+    display: inline-block;
+    font-size: var(--21px-size);
+    color: var(--secondary);
+}
